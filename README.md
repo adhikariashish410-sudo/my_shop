@@ -22,6 +22,15 @@ MyShop is a multi-screen mini e-commerce application built using Flutter. It dis
 * **Product Details Screen:** Shows item images, ratings, descriptions, pricing, and an interactive "Add to Cart" button that triggers a `SnackBar`.
 
 ---
+# Screenshots
+
+| Welcome Screen | Home Screen |
+|--- |--- |
+| ![Welcome](welcome_page.png) | ![Home](home_page.png) |
+
+| Category Screen | Details Screen |
+|--- |--- |
+| ![Category](category_page.png) | ![Details](product_details_page.png) |
 
  Packages Used
  [`carousel_slider`](https://pub.dev/packages/carousel_slider) - Used for auto-scrolling promo banners on the Home Page.
