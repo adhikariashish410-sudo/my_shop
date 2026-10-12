@@ -1,0 +1,92 @@
+import '../models/product.dart';
+
+final List<String> categories = [
+  "Electronics",
+  "Fashion",
+  "Shoes",
+  "Beauty",
+  "Home",
+];
+
+final List<Product> sampleProducts = [
+  Product(
+    name: "Wireless Bluetooth Headset",
+    category: "Electronics",
+    image: "https://picsum.photos/300/300?random=1",
+    price: 35.99,
+    rating: 4.5,
+    description: "High-quality sound with noise isolation and up to 20 hours battery life.",
+  ),
+  Product(
+    name: "Camp Collar Blouse",
+    category: "Fashion",
+    image: "https://picsum.photos/300/300?random=2",
+    price: 39.00,
+    rating: 4.7,
+    description: "Comfortable and stylish summer wear with lightweight fabric.",
+  ),
+  Product(
+    name: "Sports Running Shoes",
+    category: "Shoes",
+    image: "https://picsum.photos/300/300?random=3",
+    price: 59.99,
+    rating: 4.8,
+    description: "Breathable mesh upper with extra cushioning for maximum comfort.",
+  ),
+  Product(
+    name: "Skincare Glow Serum",
+    category: "Beauty",
+    image: "https://picsum.photos/300/300?random=4",
+    price: 24.50,
+    rating: 4.6,
+    description: "Hydrating serum enriched with vitamins for natural skin glow.",
+  ),
+  Product(
+    name: "Smart Fitness Watch",
+    category: "Electronics",
+    image: "https://picsum.photos/300/300?random=5",
+    price: 89.99,
+    rating: 4.4,
+    description: "Track your heart rate, steps, sleep, and workouts effortlessly.",
+  ),
+  Product(
+    name: "Casual Denim Jacket",
+    category: "Fashion",
+    image: "https://picsum.photos/300/300?random=6",
+    price: 49.99,
+    rating: 4.3,
+    description: "Classic denim jacket suitable for everyday casual wear.",
+  ),
+  Product(
+    name: "Leather Formal Shoes",
+    category: "Shoes",
+    image: "https://picsum.photos/300/300?random=7",
+    price: 75.00,
+    rating: 4.9,
+    description: "Premium leather formal dress shoes with durable rubber soles.",
+  ),
+  Product(
+    name: "Aroma Essential Diffuser",
+    category: "Home",
+    image: "https://picsum.photos/300/300?random=8",
+    price: 29.99,
+    rating: 4.5,
+    description: "Ultrasonic mist diffuser with multi-color LED night lights.",
+  ),
+  Product(
+    name: "Matte Lipstick Set",
+    category: "Beauty",
+    image: "https://picsum.photos/300/300?random=9",
+    price: 18.00,
+    rating: 4.2,
+    description: "Long-lasting non-drying matte lipstick collection.",
+  ),
+  Product(
+    name: "Ergonomic Desk Lamp",
+    category: "Home",
+    image: "https://picsum.photos/300/300?random=10",
+    price: 32.50,
+    rating: 4.6,
+    description: "Adjustable brightness touch desk lamp with USB charging port.",
+  ),
+];
